@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: #000;
+}
+h2 {
+  color: #d38176;
+}
+p {
+  color: #000;
+}
+i {
+  color: #000;
+}
+/* fullscreen  */
+#page-1 {
+  background-image: url("./bg-img/Untitled\ design.png");
+  width: 100vw;
+  height: 100vh;
+  /* background-color: white; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* color: #ffffff; */
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 1.5vw;
+}
+
+.box-1 {
+  width: 12vw;
+  top: 15vw;
+  position: absolute;
+  left: 7vw;
+}
+
+.svg-1 {
+  font-size: 4vw;
+}
+.line-1 {
+  width: 6vw;
+  margin-top: 2vw;
+  margin-left: 0vw;
+  border: 1px solid #b97e71;
+  rotate: 64deg;
+}
+
+.box-2 {
+  width: 11vw;
+  position: absolute;
+  top: 28vw;
+  left: 22vw;
+}
+
+.svg-2 {
+  margin-left: 1vw;
+  font-size: 3vw;
+  font-weight: 100;
+}
+.line-2 {
+  width: 5vw;
+  margin-top: -13vw;
+  margin-left: 0vw;
+  border: 1px solid #b97e71;
+  rotate: 90deg;
+}
+
+.box-3 {
+  width: 11vw;
+  position: absolute;
+  top: 12vw;
+  left: 34vw;
+}
+.svg-3 {
+  font-size: 3vw;
+  font-weight: 100;
+  position: absolute;
+  left: -4vw;
+  top: 1vw;
+  rotate: -122deg;
+}
+
+.line-3 {
+  width: 8vw;
+  margin-top: 4vw;
+  margin-left: -6.5vw;
+  border: 1px solid #b97e71;
+  rotate: 91deg;
+}
+
+.box-4 {
+  width: 11vw;
+  position: absolute;
+  top: 28vw;
+  left: 39vw;
+}
+
+.svg-4 {
+  position: absolute;
+  top: -3vw;
+  margin-left: 1vw;
+  font-size: 3vw;
+  font-weight: 100;
+}
+.line-4 {
+  width: 5vw;
+  margin-top: -10vw;
+  margin-left: 0vw;
+  border: 1px solid #b97e71;
+  rotate: 76deg;
+}
+
+.box-5 {
+  width: 12vw;
+  position: absolute;
+  top: 10vw;
+  left: 60vw;
+}
+
+.svg-5 {
+  position: absolute;
+  top: 2vw;
+  margin-left: -4vw;
+  font-size: 3.5vw;
+  font-weight: 100;
+}
+
+.line-5 {
+  width: 8vw;
+  margin-top: 3vw;
+  margin-left: -7vw;
+  border: 1px solid #b97e71;
+  rotate: 93deg;
+}
+.box-6 {
+  width: 12vw;
+  position: absolute;
+  top: 30vw;
+  left: 63vw;
+}
+
+.svg-6 {
+  position: absolute;
+  top: -4vw;
+  margin-left: 0vw;
+  font-size: 3.5vw;
+  font-weight: 100;
+}
+.line-6 {
+  width: 5.8vw;
+  margin-top: -12.8vw;
+  margin-left: -1vw;
+  border: 1px solid #b97e71;
+  rotate: 93deg;
+}
+
+.box-7 {
+  width: 9vw;
+  position: absolute;
+  top: 5vw;
+  left: 79vw;
+}
+.box-8 {
+  width: 9vw;
+  position: absolute;
+  top: 25vw;
+  left: 80vw;
+}
+
+.svg-7 {
+  position: absolute;
+  top: -4vw;
+  margin-left: 0vw;
+  font-size: 3.5vw;
+  font-weight: 100;
+}
+
+.line-7 {
+  width: 3.8vw;
+  margin-top: -8.8vw;
+  margin-left: -3vw;
+  border: 1px solid #b97e71;
+  rotate: 50deg;
+}
+
+/* Phone Screen */
+@media (max-width: 767px) {
+  #page-1 {
+    background-image: none;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  header {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6,
+  .box-7,
+  .box-8 {
+    width: 100%;
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .svg-1,
+  .svg-2,
+  .svg-3,
+  .svg-4,
+  .svg-5,
+  .svg-6,
+  .svg-7 {
+    font-size: 2rem;
+    position: static;
+    margin-right: 1rem;
+  }
+
+  .line-1,
+  .line-2,
+  .line-3,
+  .line-4,
+  .line-5,
+  .line-6,
+  .line-7 {
+    display: none;
+  }
+}
